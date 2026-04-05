@@ -47,12 +47,12 @@ h1 {
 
 /* gallery */
 .gallery img {
-  width: 90%;
-  max-width: 100%;
-  height: auto;
-  margin: 10px 0;
+  width: 300px;        /* fixed size */
+  height: 300px;       /* makes all same shape */
+  object-fit: cover;   /* crops nicely, no stretch */
   border-radius: 15px;
-  cursor: pointer;
+  margin: 10px;
+}
 }
 
 /* modal letter */
